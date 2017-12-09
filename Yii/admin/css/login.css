@@ -1,0 +1,105 @@
+html, body, div, input{ 
+	margin: 0; 
+	padding: 0; 
+	font-family: '微软雅黑'; 
+}
+
+body{ 
+	width: 100%; 
+	height: auto; 
+	background: url('images/login_bg.png') no-repeat top ; 
+	background-size:100% 800px;
+}
+
+#container{ 
+	width: 790px; 
+	height: auto; 
+	margin: 0 auto; 
+}
+
+.logo{ 
+	/*float: left;*/ 
+	margin: 0 auto;
+	width:395px; 
+}
+
+.logo img{ 
+	float: left; 
+	width: 100%; 
+}
+
+.register{ 
+	float: left; 
+	width: 690px; 
+	height: 144px; 
+	margin: 73px 50px 0; 
+	background: url('images/register_bg.png') no-repeat; 
+}
+
+.input_row{ 
+	float: left; 
+	padding: 25px 22px; 
+}
+
+.input_row input[type='text'], 
+.input_row input[type='password']{
+	float: left;
+	width: 270px; 
+	height: 46px;
+	margin-right: 15px;
+	border: 0px solid #432b2b;
+	border-radius: 0px;
+	font-size: 15px;
+	line-height: 36px;
+	color: #333;
+	background-color: #fff;
+}
+
+.username{ 
+	text-indent: 40px; 
+	background: #fff url('images/icon_user.png') no-repeat 11px center; 
+}
+
+.password{ 
+	text-indent: 44px; 
+	background: url('images/icon_key.png') no-repeat 9px center; 
+}
+
+.btn_login{ 
+	float: right; 
+	width: 72px; 
+	height: 38px; 
+	border: 1px solid #f66e00; 
+	border-radius: 3px; 
+	font-size: 15px; 
+	color: #fff; 
+	background-color: #f66e00; 
+	cursor: pointer; 
+}
+
+.register_bottom{ 
+	float: left; 
+	width: 100%; 
+	padding: 0 14px 0 22px
+}
+
+.auto_login{ 
+	float: left; 
+	color: #ffffff;
+}
+
+.forget_password{
+	float: right;
+	font-size: 14px;
+	line-height: 40px;
+}
+.forget_password a, 
+.forget_password a:focus, 
+.forget_password a:hover{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+
+
+
